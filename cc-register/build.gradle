@@ -58,5 +58,8 @@ publishing {
         maven {
             url = uri('../repo-local')
         }
+
+        // 发布到默认的 本地maven 仓库 ，路径： USER_HOME/.m2/repository/
+        it.mavenLocal()
     }
 }
