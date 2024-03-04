@@ -11,7 +11,8 @@
         tools:replace="android:label,android:allowBackup"
         android:theme="@style/demo_jsbridge_AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="debug.jsbridge.DebugWebActivity">
+        <activity android:name="debug.jsbridge.DebugWebActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER" />

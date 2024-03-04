@@ -8,7 +8,8 @@
         android:label="@string/demo_b_app_name"
         android:supportsRtl="true"
         android:theme="@style/demo_b_AppTheme">
-        <activity android:name="com.billy.cc.demo.component.b.ActivityB">
+        <activity android:name="com.billy.cc.demo.component.b.ActivityB"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
